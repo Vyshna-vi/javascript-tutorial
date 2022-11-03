@@ -21,7 +21,7 @@ console.log(y);
 y[3].unshift("tom");//item is added to the first position.
 console.log(y);
 y[3].shift()//item is deleted from the front.
-console.log(y)
+console.log(y);
 let d=["x","y","z"];
 let z=d.join("")//join elements without comas or space.
-console.log(z)
+console.log(z);

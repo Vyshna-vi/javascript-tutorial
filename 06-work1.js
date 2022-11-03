@@ -1,0 +1,38 @@
+let arr=[
+    {
+        Model:"realme2",
+        Price:12000,
+        Brand:"Realme"
+    },
+    {
+        Model:"realme3pro",
+        Price:13000,
+        Brand:"Realme"
+    },
+    {
+        Model:"realme3",
+        Price:14000,
+        Brand:"Realme"
+    },
+    {
+        Model:"realme2pro",
+        Price:12500,
+        Brand:"Realme"
+    },
+]
+console.log(arr);
+console.log(arr[2].Price)
+arr.push(
+    {
+        Model:"realme5pro",
+        Price:16000,
+        Brand:"Realme"
+    }
+    )
+console.log(arr)
+delete arr[4].Brand
+console.log(arr)
+arr[0].stock=10
+console.log(arr)
+arr.pop()
+console.log(arr)
